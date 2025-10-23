@@ -6,7 +6,7 @@ Este projeto é a solução para um desafio de desenvolvimento web focado em UI/
 
 O projeto está hospedado e pode ser acessado publicamente através do link abaixo:
 
-* **[INSERIR SEU LINK DO DEPLOY AQUI (Vercel, GitHub Pages, etc.)]**
+* **https://landing-page-ascii.vercel.app/**
 
 ## 🎯 Descrição do Projeto
 
