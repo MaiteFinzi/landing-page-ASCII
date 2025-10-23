@@ -37,12 +37,12 @@ Basta seguir os passos:
 
 1.  Clone este repositório:
     ```bash
-    git clone [LINK DO SEU REPOSITÓRIO GIT AQUI]
+        git clone https://github.com/MaiteFinzi/landing-page-ASCII.git
     ```
 
 2.  Navegue até o diretório do projeto:
     ```bash
-    cd [NOME-DO-DIRETORIO-DO-PROJETO]
+       cd landing-page-ASCII
     ```
 
 3.  Abra o arquivo `index.html` diretamente no seu navegador de preferência.
