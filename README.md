@@ -1,4 +1,4 @@
-# [Landing Page Estilo Código]
+# [Landing Page "Estilo Código"]
 
 Este projeto é a solução para um desafio de desenvolvimento web focado em UI/UX, criatividade e domínio técnico das ferramentas base da web. O objetivo foi criar uma landing page simples, porém inovadora, demonstrando habilidades em design, responsividade e organização de código.
 
