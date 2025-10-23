@@ -50,3 +50,4 @@ Basta seguir os passos:
 (Opcional: Se você utiliza o Visual Studio Code, recomendo usar a extensão **Live Server** para visualizar o projeto com recarregamento automático.)
 
 
+
