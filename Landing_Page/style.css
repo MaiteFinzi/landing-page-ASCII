@@ -1,0 +1,288 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 131.09px; /* Use o valor exato da altura do seu header */
+}
+
+body  {
+    background-color: rgb(236, 233, 239);
+    color: rgba(4, 4, 66, 0.767);
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(236, 233, 239);
+}
+
+header img {
+    width: 30%;
+    margin-top: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a {
+    color: rgba(4, 4, 66, 0.767)
+}
+
+a:hover {
+    color: rgb(242, 101, 34);
+    transition: 0.3s all;
+}
+
+#login_botao {
+    border: 2px solid rgb(242, 101, 34);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#login_botao:hover {
+    background-color: rgb(242, 101, 34);
+    color: rgba(4, 4, 66, 0.767);
+}
+
+h1 {
+    font-weight: 900;
+    line-height: 10px;
+}
+
+h2 {
+    line-height: 22px;
+    font-weight: 600;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+span {
+    color: rgb(0, 0, 128);
+}
+
+.destaque_laranja {
+    color: rgb(242, 101, 34);
+}
+
+p span {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+p , .txt-obrigado {
+    font-size: 15px;
+    line-height: 17px;
+    max-width: 500px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#home aside {
+    flex: 1;
+}
+
+#home article {
+    flex: 1;
+}
+
+img {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(242, 101, 34);
+    color: rgba(4, 4, 66, 0.767);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+#sobre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    padding: 35px 5px;
+    max-width: 100%;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.sobre-img{
+    margin-top: 0;
+}
+
+#precos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px 10px;
+    max-width: 100%;
+}
+
+#precos ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#precos ul li {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+#sobre p {
+    max-width: 750px;
+}
+
+
+#precos p {
+    max-width: 750px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    color: rgba(4, 4, 66, 0.767);
+    -webkit-text-stroke: .2px rgb(242, 101, 34);
+}
+
+.botao-inscricao-preco {
+    height: auto;
+    width: auto;
+    padding: 12px;
+    background-color: rgb(242, 101, 34);
+    color: rgba(4, 4, 66, 0.767);
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.botao-inscricao-preco:hover {
+    cursor: pointer;
+    color: rgb(242, 101, 34);
+    background-color: rgba(4, 4, 66, 0.767);
+    transition: 0.3s all;
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: auto;
+}
+
+.rodape_texto {
+    font-size: 8px;
+    font-weight: 500;
+    padding: auto;
+}
+
+
+.main-obrigado , .main-login, .minha-pagina{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.logo-obrigado , .logo-minha-pagina{
+    width: 10%;
+}
+
+.a-obrigado{
+    text-decoration: none; 
+    color: rgb(242, 101, 34); 
+    font-weight: 600;
+}
+
+
+.form-login{
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    margin: 0 auto;
+   
+}
+
+.submit-login{
+    background-color: rgb(242, 101, 34); 
+    color: white; 
+    border: none; 
+    padding: 15px; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    margin-top: 20px;
+    align-self: center;
+    text-decoration: none;
+}
+
+.submit-login:hover{
+    cursor:pointer;
+    color: rgba(4, 4, 66, 0.767);
+}
+
+.em-construcao{
+    position: absolute;
+}
+
+.engrenagens{
+    margin-left: 20px;
+}

@@ -1,0 +1,137 @@
+@media screen and (max-width:162px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    form [type="submit"] {
+        text-align: center;
+        font-weight: 900;
+        font-size: 10px;
+        width: 60%;
+    }
+
+    button {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width:320px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:368px) {
+    h1 {
+        line-height: 30px;
+    }
+
+    #sobre {
+        gap: 0px;
+        text-align: center;
+
+    }
+
+}
+
+
+@media screen and (max-width:393px) {
+    #sobre {
+        gap: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #sobre {
+        gap: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:428px) {
+    #sobre {
+        gap: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: inherit;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    h1 {
+        line-height: 25px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    #home aside {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 0;
+        width: 100%;
+    }
+
+    #home article {
+        display: none;
+    }
+
+    .sobre-img {
+        display: none;
+    }
+
+    footer {
+        padding-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    article img {
+        width: 650px;
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+    }
+
+
+}
